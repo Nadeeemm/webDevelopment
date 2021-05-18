@@ -1,0 +1,19 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "author": "nadeem",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7"
+  }
+}
