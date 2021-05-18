@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0px;
+      padding: opx;
+    }
+
+    body {
+
+      background-image: url("https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aG9zcGl0YWx8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      background-size: cover;
+      font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    header {
+
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      background-color: #f8edeb;
+
+    }
+
+    nav {
+      display: flex;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      justify-content: center;
+      justify-content: space-evenly;
+
+    }
+
+
+    ul {
+
+      display: flex;
+      justify-content: center;
+    }
+
+
+    li {
+      list-style: none;
+
+    }
+
+
+    a {
+
+      margin: 80px 80px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+
+
+    }
+
+    button {
+
+      padding: 10px;
+      width: 100px;
+      background-color: #48cae4;
+
+    }
+    
+
+    .container {
+
+
+   
+
+
+      color: black;
+      display: block;
+      padding: 10px;
+      height: 525px;
+      width: 30%;
+      margin: 40px auto;
+
+
+
+
+    }
+
+    .formgroup input {
+      margin: 10px auto;
+      width: 100%;
+      font-family: 'Baloo Bhai 2', cursive;
+      padding-right: 2px;
+
+
+
+    }
+
+
+    .formgroup {
+      margin: 10px auto;
+    }
+
+    a:hover {
+
+      color: #fb8500;
+    }
+
+    button:hover {
+
+      background-color: #fb8500;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="./Gallery.html" target=" ">Gallery</a></li>
+      </ul>
+      <button>Log In</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <h1>Book an Appointment Now</h1>
+    <br>
+    <br>
+    <form action="noaction.php">
+      <div class="formgroup">
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <input type="tel" placeholder="Enter your Email">
+        <br>
+        <input type="mail" placeholder="Enter Your Phone Number">
+        <br>
+        <button style="width: 30vw;" class="submit">Submit</button>
+
+      </div>
+  </div>
+</body>
+
+</html>

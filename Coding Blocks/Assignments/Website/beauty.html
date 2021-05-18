@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayat Beauty Parlour</title>
+</head>
+<link rel="stylesheet" href="./style.css" class="css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-image: url(https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXR5JTIwc2Fsb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+        background-repeat: no-repeat;
+        background-size: 1366px;
+        margin: 0px;
+        padding: 0px;
+        height: 590px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+
+        color: black;
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        margin-top: 20px;
+        text-align: center;
+
+
+        border-radius: 20px
+    }
+
+    .center {
+        border: 2px solid black;
+
+        color: black;
+        display: flex;
+        width: 50%;
+        margin: 30px auto;
+        border-radius: 20px;
+    }
+
+    .right {
+
+
+        color: white;
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        margin-top: -49px
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: orangered;
+        border: palegreen;
+        background-color: burlywood;
+        border-radius: 10px;
+        padding: 4px;
+
+    }
+
+    .button {
+        background-color: burlywood;
+        margin: 0px 9px;
+        padding: 15px;
+        font-size: 15px;
+        font-family: 'Baloo Bhai 2', cursive;
+        border-radius: 10px;
+    }
+
+    .button:hover {
+        background-color: burlywood;
+        margin: 0px 9px;
+        padding: 15px;
+        font-size: 16px;
+        color: orangered;
+
+    }
+
+    .container {
+
+        border: 2px solid black;
+        background-color: papayawhip;
+
+        color: black;
+        display: block;
+        padding: 10px;
+        height: 300px;
+        width: 30%;
+        margin-top: 120px;
+        margin-left: 10px;
+        border-radius: 20px;
+
+    }
+
+    .formgroup input {
+        margin: 10px auto;
+        width: 100%;
+        font-family: 'Baloo Bhai 2', cursive;
+        padding-right: 2px;
+
+
+
+    }
+
+    .formgroup {
+        margin: 10px auto;
+    }
+
+    .submit {
+        background-color: burlywood;
+        margin: 10px auto;
+        padding: 2px;
+        font-size: 22px;
+        font-family: 'Baloo Bhai 2', cursive;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .submit:hover {
+
+
+        padding: 2px;
+        font-size: 25px;
+        font-family: 'Baloo Bhai 2', cursive;
+        border-radius: 10px;
+        width: 100%;
+        color: orangered;
+
+
+    }
+</style>
+
+
+<body>
+    <header class="header">
+
+        <div class="left" style="font-size: 15px;">💇 <br> Aayat Beauty Parlour </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="button">BECOME A MEMBER</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Book an Appointment Now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" placeholder="Enter Your Name">
+                <br>
+                <input type="tel" placeholder="Enter your Email">
+                <br>
+
+                <input type="mail" placeholder="Enter Your Phone Number">
+                <button class="submit">Submit</button>
+
+            </div>
+    </div>
+
+    </form>
+
+    </div>
+</body>
+
+</html>

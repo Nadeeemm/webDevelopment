@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Product</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>Edit Product</legend>
+        <form action="/products/<%=product._id%>?_method=PATCH" method="POST">
+          Price:
+          <input
+            type="number"
+            name="price"
+            placeholder="Enter price"
+            value="<%= product.price %> "
+          />
+          <br />
+          <br />
+          Description:
+          <textarea
+            name="desc"
+            id=""
+            cols="30"
+            rows="10"
+            value="<%= product.desc %>"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit">Save</button>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

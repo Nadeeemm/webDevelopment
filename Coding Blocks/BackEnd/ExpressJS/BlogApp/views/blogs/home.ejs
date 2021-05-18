@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <style>
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ========== Strat Nav Bar ========== -->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> My Blog </a>
+      </div>
+    </nav>
+
+    <div class="card" style="width: 700px; border: 1px solid black; margin: 55px auto">
+      <div class="d-grid gap-2">
+        <button type="button" class="btn btn-success">
+          <a href="/blogs/new">Add New Blog</a>
+        </button>
+      </div>
+    </div>
+    <hr />
+
+    <!-- ========== Blogs Array ========== -->
+    <ul>
+      <%for(let b of blogsArray){%>
+      <li>
+        <div class="card" style="width: 800px; margin: 40px auto">
+          <img src="<%=b.image%>" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><%= b.title %></h5>
+            <p class="card-text"><%= b.desc %></p>
+          </div>
+
+          <div class="card-body">
+            <button type="button" class="btn btn-primary">
+              <a href="/blogs/<%=b.id%>" class="card-link">Show</a>
+            </button>
+            <button type="button" class="btn btn-info">
+              <a href="/blogs/<%=b.id%>/edit" class="card-link">Edit</a>
+            </button>
+            <!-- ========== delete button ========== -->
+            <form
+              style="display: inline"
+              method="POST"
+              action="/blogs/<%= b.id %>?_method=DELETE"
+            >
+              <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+          </div>
+        </div>
+      </li>
+      <% } %>
+    </ul>
+
+    <br />
+    <br />
+    <br />
+
+   
+  </body>
+</html>

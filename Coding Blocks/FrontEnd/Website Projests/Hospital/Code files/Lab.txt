@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(236, 236, 236);
+        }
+
+        h1 {
+            border: 2px solid grey;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: orangered;
+        }
+
+        section {
+            border: 2px solid grey;
+            width: 85%;
+            margin: 40px auto;
+            height: 450px;
+            background-image: url("https://images.unsplash.com/photo-1579154204601-01588f351e67?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8aG9zcGl0YWwlMjBsYWJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: slide 10s infinite;
+        }
+
+        @keyframes slide{
+
+           25%{
+                background-image: url("https://images.unsplash.com/photo-1595541436696-9d1ed153a2ca?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGhvc3BpdGFsJTIwbGFifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+            50%{
+                background-image: url("https://images.unsplash.com/photo-1583912372112-e2908da68383?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fGhvc3BpdGFsJTIwbGFifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+            75%{
+                background-image: url("https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvc3BpdGFsJTIwbGFifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+            100%{
+                background-image: url("https://images.unsplash.com/photo-1582719299074-be127353065f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGhvc3BpdGFsJTIwbGFifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>LABORATOTY</h1>
+
+    <section>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICU</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: rgb(236, 236, 236);
+    }
+
+    h1 {
+        border: 2px solid grey;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: orangered;
+    }
+
+    section {
+        border: 2px solid grey;
+        width: 85%;
+        margin: 40px auto;
+        height: 450px;
+        background-image: url("https://images.unsplash.com/photo-1601841197690-6f0838bdb005?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aG9zcGl0YWwlMjBpY3V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: slide 10s infinite;
+    }
+    @keyframes slide{
+
+        25%{
+             background-image: url("https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8aG9zcGl0YWwlMjBpY3V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+         }
+         50%{
+             background-image: url("https://images.unsplash.com/photo-1579684453423-f84349ef60b0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3BpdGFsJTIwaWN1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+         }
+         75%{
+             background-image: url("https://images.unsplash.com/photo-1579684288452-b334934f845f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGhvc3BpdGFsJTIwaWN1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+         }
+         100%{
+             background-image: url("https://images.unsplash.com/photo-1579154491781-5e199df316aa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fGhvc3BpdGFsJTIwaWN1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+         }
+
+     }
+</style>
+</head>
+
+<body>
+
+    <h1>ICU/Emergency</h1>
+
+    <section>
+
+    </section>
+</body>
+
+</html>
