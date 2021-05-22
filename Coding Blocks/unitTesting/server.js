@@ -8,7 +8,7 @@ const {calculateFare} = require("./fareUtils");
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/", (req, res) => {git
   res.send("hello from simple server :)");
 });
 

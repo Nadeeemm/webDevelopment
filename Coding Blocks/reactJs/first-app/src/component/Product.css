@@ -1,0 +1,16 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Product {
+    padding: 16px;
+    width: 250px;
+    margin: 20px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 20px purple;
+}
+
+.Product img {
+    width: 100%
+}
