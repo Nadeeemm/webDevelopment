@@ -1,0 +1,28 @@
+.ShopList {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 5px purple;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 5px rgb(49, 49, 49);
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(245, 220, 245);
+    box-shadow: 3px 3px 10px purple;
+}
