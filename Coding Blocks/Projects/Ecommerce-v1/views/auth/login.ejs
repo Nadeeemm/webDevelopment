@@ -1,0 +1,39 @@
+<%- include("../partials/header") %>
+    <%- include("../partials/navbar") %>
+
+        <div class="container">
+            <div class="row">
+                <%- include("../partials/flash") %>
+                <div class="col-md-12 col-lg-6" style="margin: 20px auto">
+                    
+                    
+
+
+                        <form class="needs-validation" action="/login" method="POST" novalidate>
+                            <h1>Log In</h1>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username: </label>
+                                <input type="text" class="form-control" id="username" placeholder="Choose a username"
+                                    name="username" required />
+                                <div class="invalid-feedback">Cannot Leave empty</div>
+                            </div>
+                        
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password: </label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Choose a secure Password" name="password" required />
+                                <div class="invalid-feedback">Cannot Leave empty</div>
+                            </div>
+                            
+
+                            <button type="submit" class="btn btn-success">Login</button>
+                            <a href="/register" class="btn btn-info">
+                                New User? SignUp
+                            </a>
+                            
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        <%- include("../partials/footer") %>
