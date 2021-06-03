@@ -1,0 +1,5 @@
+.BlogList {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(101, 247, 28);
+}
